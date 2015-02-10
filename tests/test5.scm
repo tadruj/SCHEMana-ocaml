@@ -1,0 +1,7 @@
+(eqv? 1 1)
+(eqv? 1 2)
+(eqv? 2 1)
+(car (cons 1 (cons 2 (cons 3 (cons 4 ()))))))
+(car (cdr (cdr (cdr (cons 4 (cons 3 (cons 2 (cons 1 ())))))))))
+(eqv? (car (cons 4 ())) (car (cons 4 ())))
+(eqv? (car (cons 1 (cons 2 (cons 3 (cons 4 ()))))) (car (cdr (cdr (cdr (cons 4 (cons 3 (cons 2 (cons 1 ())))))))))

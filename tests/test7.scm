@@ -1,0 +1,5 @@
+(define rok 39)
+(define ana 30)
+(define magic (- (+ 3 rok) (+ ana (/ rok ana))))
+(set! rok "Rok")
+(if (&& (string=? rok "Rok") (< 10 magic)) "Brave new world." "That has such people in't!")
