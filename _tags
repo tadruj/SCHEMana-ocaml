@@ -1,0 +1,4 @@
+true: debug
+"mlparser": include
+ <**/*.ml> or <**/*.mli> or <**/*.mlpack> or <**/*.ml.depends>: ocaml
+
